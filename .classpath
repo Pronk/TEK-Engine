@@ -11,7 +11,7 @@
 	<classpathentry kind="lib" path="libs/jars/lwjgl-debug.jar"/>
 	<classpathentry kind="lib" path="libs/jars/lwjgl.jar">
 		<attributes>
-			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Thalamus/libs/natives"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="TEK-Engine/libs/natives"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="libs/jars/lzma.jar"/>

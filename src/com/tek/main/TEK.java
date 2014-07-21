@@ -21,7 +21,7 @@ public class TEK {
 	private void initOpenGL(String screenanme) {
 		try {
 			Display.setDisplayMode(new DisplayMode(800, 600));
-			Display.setTitle("Thalamus");
+			Display.setTitle(screenanme);
 			Display.create();
 		} catch (LWJGLException e) {
 			Display.destroy();

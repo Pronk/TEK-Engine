@@ -1,4 +1,4 @@
-package com.thalamus.log;
+package com.tek.log;
 
 import java.io.File;
 import java.io.IOException;

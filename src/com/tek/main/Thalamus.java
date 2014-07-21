@@ -1,10 +1,10 @@
-package com.thalamus.main;
+package com.tek.main;
 
 import org.lwjgl.LWJGLException;
 import org.lwjgl.opengl.Display;
 import org.lwjgl.opengl.DisplayMode;
 
-import com.thalamus.log.Logger;
+import com.tek.log.Logger;
 
 public class Thalamus {
 

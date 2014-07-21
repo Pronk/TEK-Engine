@@ -6,19 +6,19 @@ import org.lwjgl.opengl.DisplayMode;
 
 import com.tek.log.Logger;
 
-public class Thalamus {
+public class TEK {
 
 	private static Logger log = new Logger("Thalamus", true);
 	
-	public Thalamus(){
-		initOpenGL();
-		Thalamus.log("Initialized OpenGl");
+	public TEK(String screenanme){
+		initOpenGL(screenanme);
+		TEK.log("Initialized OpenGl");
 	}
 	
 	/**
 	 * Создает дисплей OpenGL
 	 */
-	private void initOpenGL() {
+	private void initOpenGL(String screenanme) {
 		try {
 			Display.setDisplayMode(new DisplayMode(800, 600));
 			Display.setTitle("Thalamus");
@@ -31,7 +31,7 @@ public class Thalamus {
 	}
 
 	public static void main(String[] args) {
-		new Thalamus();
+		new TEK("TEK");
 	}
 	
 	public static void log(String logline){
